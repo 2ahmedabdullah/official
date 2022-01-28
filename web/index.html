@@ -14,14 +14,17 @@
         <link href=css/css2.css rel="stylesheet" type="text/css">
 
         <!-- CSS Libraries -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
         <link href="css/all.min.css" rel="stylesheet" type="text/css">
         <link href="lib/animate/animate.min.css" rel="stylesheet" type="text/css">
         <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" type="text/css">
         <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" type="text/css">
 
+
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+
     </head>
 
     <body data-spy="scroll" data-target=".navbar" data-offset="51">
@@ -390,7 +393,8 @@
                                 </h5>
                                 <h5>2016-2018</h5>
                                 <div class="team-social">
-                                    <a class="btn" href="https://www.iitm.ac.in/" target="_blank"><i class="fa fa-globe"></i></a>
+                                    <a class="btn" href="https://www.iitm.ac.in/" target="_blank"><i class="fa fa-globe" style="font-size:36px"></i></a>
+                                    
                                     <a class="btn" href="https://www.linkedin.com/school/reachiitm/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                                 </div>
                             </div>
@@ -515,5 +519,15 @@
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+    
+    <script>
+    window.onload = function() {
+    if(!window.location.hash) {
+        window.location = window.location + '#loaded';
+        window.location.reload();
+        }
+    }
+    </script>
+
     </body>
 </html>
